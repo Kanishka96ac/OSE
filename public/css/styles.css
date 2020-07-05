@@ -1,0 +1,412 @@
+/* ---------------------------------------------Header contact CSS------------------------------------------- */
+#header {
+  background-color: #F2A249;
+  top: 0px;
+  left: 0px;
+}
+
+.head_block {
+  padding-left: 200px;
+  padding-right: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#id td {
+  text-align: right;
+}
+
+table {
+  text-align: center;
+}
+
+.icon_clr {
+  color: #FFFFFF;
+  padding-left: 20px;
+}
+
+.frame_insta_hd {
+  width: 32px;
+  height: 32px;
+}
+
+.frame_linkedin_hd {
+  width: 30px;
+  height: 30px;
+}
+
+.frame_youtube_hd {
+  width: 36px;
+  height: 36px;
+}
+
+.social_icons_hd {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+/* ---------------------------------------------logo CSS------------------------------------------- */
+.hd_logo {
+  padding: 30px;
+  width: 465px;
+  height: 200px;
+  opacity: 1;
+}
+
+.header_hr {
+  background-color: #F2A249;
+  width: 56%;
+  align: center;
+}
+
+/* ---------------------------------------------Header Social icons CSS------------------------------------------- */
+/* ---------------------------------------------Logo CSS------------------------------------------- */
+/* ---------------------------------------------Navbar CSS------------------------------------------- */
+.nav-link {
+  text-align: left;
+  font: Regular 23px/31px Gadugi;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navbar {
+  text-align: center;
+}
+
+#navbar li {
+  display: inline;
+  padding: 25px;
+}
+
+#navbar a:hover {
+  color: #F2A249;
+}
+
+#navbar a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #F2A249;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out 0s;
+}
+
+#navbar a:hover:before, #navbar a.active:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+#navbar a {
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
+
+#navbar {
+  text-align: center;
+}
+
+#header_image div.row {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 80px;
+}
+
+#header_image div.container-fluid {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ---------------------------------------------About OSE CSS------------------------------------------- */
+#about {
+  background-color: #353535;
+}
+
+.student_img {
+  padding-top: 60px;
+  padding-right: 60px;
+  width: 620px;
+  height: 426px;
+}
+
+.about_txt {
+  text-align: left;
+  font: Regular 24px/32px Gadugi;
+  letter-spacing: 0.46px;
+  color: #FFFFFF;
+  opacity: 1;
+  padding-top: 100px;
+  padding-left: 0px;
+  padding-bottom: 80px;
+}
+
+.aboutButton {
+  background-color: #F2A249;
+  cursor: pointer;
+  padding: 20px 65px;
+  text-decoration: none;
+  font: Regular 30px/40px Gadugi;
+  letter-spacing: 0.57px;
+  color: #353535;
+  opacity: 1;
+}
+
+.aboutButton:hover {
+  background: linear-gradient(to bottom, #FFFFFF 5%, #FFFFFF 100%);
+  background-color: #FFFFFF;
+  color: black;
+}
+
+/* ---------------------------------------------Our objectives CSS------------------------------------------- */
+/* ---------------------------------------------Footer CSS------------------------------------------- */
+#footer {
+  background-color: #F2A249;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* ---------------------------------------------subscribe CSS------------------------------------------- */
+#subscribe {
+  background-color: #353535;
+  padding: 40px;
+}
+
+.sub {
+  padding: 40px;
+  color: #FFFFFF;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h6 {
+  font: Regular 25px/35px Myriad Pro;
+  letter-spacing: 1.38px;
+  color: #F2A249;
+  opacity: 1;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.vl {
+  border-left: 0.2px silver solid;
+  height: 500px;
+}
+
+.sub_logo {
+  width: 465px;
+  height: 152px;
+  opacity: 1;
+}
+
+.sub_social {
+  padding: 40px;
+  padding-top: 0px;
+  color: #FFFFFF;
+}
+
+.social_icons {
+  margin: 5px;
+}
+
+.frame_fb {
+  width: 26px;
+  height: 26px;
+}
+
+.frame_insta {
+  width: 26px;
+  height: 26px;
+}
+
+.frame_twitter {
+  width: 26px;
+  height: 26px;
+}
+
+.frame_linkedin {
+  width: 24px;
+  height: 24px;
+}
+
+.frame_youtube {
+  width: 28px;
+  height: 28px;
+}
+
+/* ---------------------------------------------contactUS CSS------------------------------------------- */
+#contact{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#contact div.container-fluid {
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  padding: 10px;
+  font: Semibold 35px/49px Myriad Pro;
+  letter-spacing: 0.67px;
+  opacity: 1;
+}
+
+.contact_phone {
+  width: 72px;
+  height: 72px;
+}
+
+.contact_fb {
+  width: 72px;
+  height: 72px;
+}
+
+.contact_mail {
+  width: 72px;
+  height: 72px;
+}
+
+.contact_whatsapp {
+  width: 72px;
+  height: 72px;
+}
+
+/* ---------------------------------------------objectives CSS------------------------------------------- */
+.title_objectives {
+  font: Bold 49px/65px Gadugi;
+  letter-spacing: 0.93px;
+  color: #353535;
+  opacity: 1;
+  padding-top: 20px;
+}
+
+.pharagraph_obj {
+  text-align: center;
+  font: Regular 20px/27px Gadugi;
+  letter-spacing: 0.38px;
+  color: #353535;
+  opacity: 1;
+}
+
+.container {
+  padding-bottom: 10px;
+}
+
+/* ---------------------------------------------Main facts CSS------------------------------------------- */
+#mainfacts {
+  background-color: #F2A249;
+}
+
+.facts_block {
+  padding: 60px;
+  text-align: center;
+  font: Bold 50px/67px Gadugi;
+  letter-spacing: 0.95px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.title_facts {
+  text-align: center;
+  font: Bold 49px/65px Gadugi;
+  letter-spacing: 0.38px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.pharagraph_facts {
+  text-align: center;
+  font: Regular 20px/27px Gadugi;
+  letter-spacing: 0.38px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.hr_facts {
+  background-color: #FFFFFF;
+  width: 50%;
+  align: center;
+  height: 3px;
+}
+
+.facts_number {
+  text-align: center;
+  font: Bold 103px/137px Gadugi;
+  letter-spacing: 1.96px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+/* ---------------------------------------------News CSS------------------------------------------- */
+#news {
+  background-color: #EFEFEF;
+}
+
+.news_block {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+.news_container{
+  text-align: center;
+  padding-left: 10px;
+  align-content: center;
+}
+
+.news_container {
+  padding-left: 20%;
+}
+
+.tweet_block {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+
+#news td {
+  text-align: left;
+}
+
+.news_hd {
+  font-weight: bold;
+}
+
+.news_img{
+  text-align: center;
+  padding: 30px;
+}
+.block_padding {
+  padding-top: 50px;
+}
+
+/* ---------------------------------------------Tweet CSS------------------------------------------- */
+.tweet_block{
+  background-color: #FFFFFF;
+  height: 300px;
+}
